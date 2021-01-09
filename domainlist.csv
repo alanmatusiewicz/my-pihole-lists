@@ -1,21 +1,55 @@
 id,type,domain,enabled,date_added,date_modified,comment
-19,3,^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.],1,1585426668,1608564394,
-20,3,^(.+[-_.])??ad[sxv]?[0-9]*[-_.],1,1585426668,1608564396,
-21,3,^(.+[-_.])??telemetry[-.],1,1585426668,1608564398,
-22,3,^(.+[-_.])??xn--,1,1585426668,1608564400,
-23,3,^adim(age|g)s?[0-9]*[-_.],1,1585426668,1608564401,
-24,3,^adtrack(er|ing)?[0-9]*[-.],1,1585426668,1608564403,
-25,3,^advert(s|is(ing|ements?))?[0-9]*[-_.],1,1585426668,1608564404,
-26,3,^aff(iliat(es?|ion))?[-.],1,1585426668,1608564405,
-27,3,^analytics?[-.],1,1585426668,1608564406,
-28,3,^banners?[-.],1,1585426668,1608564408,
-29,3,^beacons?[0-9]*[-.],1,1585426668,1608564427,
-30,3,^count(ers?)?[0-9]*[-.],1,1585426668,1608564421,
-31,3,^pixels?[-.],1,1585426668,1608564418,
-32,3,^stat(s|istics)?[0-9]*[-.],1,1585426668,1608564415,
-33,3,^track(ers?|ing)?[0-9]*[-.],1,1585426668,1608564413,
-34,3,^traff(ic)?[-.],1,1585426668,1608564412,
-35,3,^(ads|logs|cloudservices).roku.com$,1,1585426668,1608564411,
-36,0,track.shipstation.com,1,1586220825,1589684086,"USPS tracking"
-37,0,ib.huluim.com,1,1593787890,1593787985,"Hulu scrubbing thumbnails"
-43,2,^beacons([0-9])?\.(gcp\.)?gvt([0-9])\.com$,1,1608398374,1608398374,"Fixes Google Meet buttons"
+1,1,cdn.samsungcloudsolution.com,1,1589321117,1610157676,"Migrated from /etc/pihole/blacklist.txt"
+2,0,v10.vortex-win.data.microsoft.com,1,1589321117,1610157733,"Xbox Live"
+3,0,v20.events.data.microsoft.com,1,1589321117,1610157733,"Xbox Live"
+4,0,v10.events.data.microsoft.com,1,1589321117,1610157733,"Xbox Live"
+5,0,v20.vortex-win.data.microsoft.com,1,1589321117,1610157733,"Xbox Live"
+6,0,forms.gle,1,1589321117,1610157733,"Google Forms"
+7,0,continuum.dds.microsoft.com,1,1589321117,1610157733,"Xbox Live"
+10,3,^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+11,3,^(.+[-_.])??m?ad[sxv]?[0-9]*[-_.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+12,3,^(.+[-_.])??xn--,1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+13,3,^adim(age|g)s?[0-9]*[-_.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+14,3,^adtrack(er|ing)?[0-9]*[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+15,3,^advert(s|is(ing|ements?))?[0-9]*[-_.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+16,3,^aff(iliat(es?|ion))?[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+17,3,^analytics?[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+18,3,^banners?[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+19,3,^beacons?[0-9]*[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+20,3,^count(ers?)?[0-9]*[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+21,3,^pixels?[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+22,3,^stat(s|istics)?[0-9]*[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+23,3,^telemetry[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+24,3,^track(ers?|ing)?[0-9]*[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+25,3,^traff(ic)?[-.],1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+26,3,(^|\.)roku\.com$,1,1589321117,1610157676,"Migrated from /etc/pihole/regex.list"
+28,2,(\.|^)qualtrics\.com$,1,1589990496,1610157734,"Qualtrics surveys"
+29,0,settings-win.data.microsoft.com,1,1590617722,1610157733,"Xbox Live"
+30,0,tinyurl.com,1,1591470427,1610157733,"TinyURL redirects"
+31,0,api.mapbox.com,1,1591803161,1610157733,"NYT Interactive Maps"
+33,0,fonts.gstatic.com,1,1593622382,1610157733,"Google Fonts - necessary"
+35,0,traffic.megaphone.fm,1,1593714182,1610157733,"Pocket Casts Android App DLs &amp; Streaming"
+36,0,traffic.libsyn.com,1,1593714246,1610157733,"Pocket Casts Android App DLs &amp; Streaming"
+41,2,(\.|^)greenhouse\.io$,1,1594310831,1610157734,"Job postings"
+42,0,dl.delivery.mp.microsoft.com,1,1594311792,1610157733,"Microsoft Stores"
+43,0,geo-prod.do.dsp.mp.microsoft.com,1,1594311825,1610157733,"Microsoft Stores"
+44,2,(\.|^)nytimes\.com$,1,1595859486,1610157734,NYT
+45,0,1de94738-ff4f-4ed8-a059-96468488c9d8.dev.wix-code.com,1,1600631793,1610157733,"Wix Editing Interface"
+46,0,in.appcenter.ms,1,1601052334,1610157734,"Added from Query Log"
+47,0,device-api.urbanairship.com,1,1601052348,1610157734,"Added from Query Log"
+48,0,remote-data.urbanairship.com,1,1601052352,1610157734,"Added from Query Log"
+49,0,csi.gstatic.com,1,1601052491,1610157734,"Added from Query Log"
+50,0,redirector.gvt1.com,1,1601393249,1610157734,"Added from Query Log"
+51,0,ringcentral.112.2o7.net,1,1601393256,1610157734,RingCentral
+52,0,ds-aksb-a.akamaihd.net,1,1601393261,1610157734,RingCentral
+53,0,main.iam.ad.ext.azure.com,1,1603206275,1610157734,"Azure AD Admin"
+55,0,arc.msn.com,1,1606362728,1610157734,"Xbox Game Pass"
+56,0,api.queryly.com,1,1606491928,1610157734,"CNBC Search Bar"
+58,0,ads-e-darwin.hulustream.com,1,1608003070,1610157734,"Hulu Ads - Video won&amp;#039;t play on Chromecast when blocked"
+59,0,ads-v-darwin.hulustream.com,1,1608003074,1610157734,"Hulu Ads - Video won&amp;#039;t play on Chromecast when blocked"
+60,0,hulu.hb.omtrdc.net,1,1608003787,1610157734,"Hulu - Video won&amp;#039;t play on Chromecast when blocked"
+61,0,vortex.hulu.com,1,1608003794,1610157734,"Hulu - Video won&amp;#039;t play on Chromecast when blocked"
+62,0,doppler.hulu.com,1,1608003816,1610157734,"Hulu - Video won&amp;#039;t play on Chromecast when blocked"
+63,0,cws-hulu.conviva.com,1,1608003823,1610157734,"Hulu - Video won&amp;#039;t play on Chromecast when blocked"
+64,2,(\.|^)halowaypoint.com$,1,1608704764,1610157734,"Halo Waypoint"
+65,0,traffic.omny.fm,1,1609523835,1610157734,"Freakonomics Radio"

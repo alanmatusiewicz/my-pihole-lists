@@ -1,1 +1,16 @@
-
+192.168.0.5 Brother-HL-L2340DW
+192.168.0.11 Chromecast
+192.168.0.12 North-Speaker
+192.168.0.13 South-Speaker
+192.168.0.14 West-Speaker
+192.168.0.15 Bathroom-Speaker
+192.168.0.16 Lenovo-Smart-Clock
+192.168.0.116 HAScott-X220
+192.168.0.125 ARM-X1C7
+192.168.0.135 ARM-SGO2
+192.168.0.170 Pixel-4
+192.168.0.181 Xbox-One
+192.168.0.197 Kindle-Paperwhite
+192.168.0.2 PiHole01-eth0
+192.168.0.4 PiHole01-wlan0
+192.168.0.3 PiHole02-wlan0
