@@ -54,3 +54,4 @@ id,type,domain,enabled,date_added,date_modified,comment
 64,2,(\.|^)halowaypoint.com$,1,1608704764,1610157734,"Halo Waypoint"
 65,0,traffic.omny.fm,1,1609523835,1610157734,"Freakonomics Radio"
 66,0,cnn.com,1,1610221147,1610221147,"testing purposes only"
+67,0,www.techcrunch.com,1,1610222079,1610222079,"TEST 2 Entered 1354, should sync at 1600"
