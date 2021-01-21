@@ -14,3 +14,7 @@
 192.168.0.2 PiHole01-eth0
 192.168.0.4 PiHole01-wlan0
 192.168.0.3 PiHole02-wlan0
+192.168.0.50 Desk-Socket
+192.168.0.51 West-Socket
+192.168.0.52 South-Socket-2
+192.168.0.53 South-Socket-1
