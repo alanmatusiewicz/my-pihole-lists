@@ -53,3 +53,4 @@ id,type,domain,enabled,date_added,date_modified,comment
 63,0,cws-hulu.conviva.com,1,1608003823,1610157734,"Hulu - Video won&amp;#039;t play on Chromecast when blocked"
 64,2,(\.|^)halowaypoint.com$,1,1608704764,1610157734,"Halo Waypoint"
 65,0,traffic.omny.fm,1,1609523835,1610157734,"Freakonomics Radio"
+67,0,mwcm.nyt.com,1,1612999060,1612999060,"Added from Query Log"
